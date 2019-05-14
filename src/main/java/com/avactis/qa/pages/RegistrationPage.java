@@ -12,6 +12,9 @@ import org.openqa.selenium.support.ui.Select;
 import com.avactis.qa.base.TestBase;
 
 public class RegistrationPage extends TestBase {
+	
+	@FindBy()
+	private WebElement  test;
 
 	@FindBy(linkText = "Sign In")
 	private WebElement signInLink;
